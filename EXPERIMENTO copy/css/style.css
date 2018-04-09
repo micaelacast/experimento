@@ -1,0 +1,30 @@
+div {
+    width: 1256px;
+    height: 571px;
+    background-color: #99DFCC;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 5s; 
+    animation-name: example;
+    animation-duration: infinite;
+
+}
+
+@-webkit-keyframes example {
+    from {background-color:  #99DFCC;}
+    to {background-color: #F4D500;}
+}
+
+
+@keyframes example {
+    from {background-color: #F4D500;}
+    to {background-color: #BE2365;}
+}
+
+
+
+.img {
+	float: 100%;
+	
+
+
+}
